@@ -17,6 +17,7 @@ function App() {
 
   return (
     <div>
+      <h1>Product List in stock</h1>
       {products.map((element) => {
         return (
           <div key={element.id}>
