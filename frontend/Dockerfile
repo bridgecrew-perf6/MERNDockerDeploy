@@ -11,7 +11,7 @@
 # CMD [ "npm","start" ]
 
 
-FROM node:alpine as builder
+FROM node:14-alpine as builder
 
 WORKDIR /usr/app
 
